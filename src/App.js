@@ -51,7 +51,7 @@ export const App = () => {
   return (
     <div>
       <header className='header'>
-        <h1 className='header-h1'>Task Tracker</h1>
+        <h1 className='header-h1'>Organizers</h1>
         <select value={sort} onChange={handleOnchnage}>
           <option value='input'>Sort By Input</option>
           <option value='descriptin'>Sort By Description</option>
